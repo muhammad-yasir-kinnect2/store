@@ -20,12 +20,16 @@ class StoreServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
         //Loading Routes File
-        include __DIR__.'/Http/routes.php';
+        include __DIR__.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'routes.php';
 
         //Define the path of views folder
         $this->loadViewsFrom(__DIR__.'/Views','Store');
 
+        $this->publishes([
+            __DIR__.'/views' => base_path('resources/views/store'),
+        ]);
     }
 
     /**

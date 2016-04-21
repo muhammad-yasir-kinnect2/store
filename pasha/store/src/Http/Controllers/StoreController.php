@@ -7,7 +7,7 @@
  * File Name    : StoreController.php
  */
 
-namespace Pasha\Store\Htpp\Controllers;
+namespace Pasha\Store\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 
