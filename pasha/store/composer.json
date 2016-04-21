@@ -1,0 +1,17 @@
+{
+  "name": "pasha/store",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Muhammad Yasir",
+      "email": "yasir9398@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Pasha\\Store\\": "src"
+    }
+  },
+  "require": {}
+}
